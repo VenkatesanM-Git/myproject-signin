@@ -85,7 +85,7 @@
   <script>
     async function loadStudents() {
       try {
-        const res = await fetch('http://3.90.216.140:5000/students'); // Your backend should expose this API
+        const res = await fetch('http://54.163.60.29:5000/students'); // Your backend should expose this API
         if (!res.ok) throw new Error('Failed to fetch students');
         const students = await res.json();
 
